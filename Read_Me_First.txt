@@ -1,6 +1,3 @@
-Hello,
-
-Thank you for the oportunity to interview with your company.
 
 The CRUD app I created is a simple application that tracks a persons prescription medications.
 
@@ -13,9 +10,5 @@ Here are the steps to get this app running.
 4.) You can also register a new account and add new data.
 5.) If you have php > 5.4, you should be able to run the project with: php -S localhost:8000
 
-6.) Please feel free to reach out to josephsortino@hotmail.com for any questions.
 
-
-Thanks,
-Joseph Sortino
 
