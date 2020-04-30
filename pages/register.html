@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body class="login-bg">
+    <div class="form-wrapper-register">
+        <form action="../index.php" method="post">
+            <h3>Register</h3>
+
+            <div class="form-item">
+                <input type="text" name="email" required="required" placeholder="Email" autofocus required></input>
+            </div>
+
+            <div class="form-item">
+                <input type="password" name="password" required="required" placeholder="Password" id="password" required></input>
+                <span>Enter a password longer than 8 characters</span>
+
+            </div>
+
+            <div class="form-item">
+                <input type="password" name="password" required="required" placeholder="Confirm Password" id="confirm_password" required></input>
+                <span>Please confirm your password</span>
+            </div>
+
+            <div class="form-item">
+                <input type="text" name="firstname" required="required" placeholder="First Name" id="firstname" required></input>
+            </div>
+
+            <div class="form-item">
+                <input type="text" name="lastname" required="required" placeholder="Last Name" id="lastname" required></input>
+            </div>
+
+            <div class="form-item">
+                <input type="tel" name="phone" required="required" placeholder="Phone Number: ex (123-456-7890)" pattern="^\d{3}-\d{3}-\d{4}$" id="phonenumber" required></input>
+            </div>
+
+            <div class="button-panel">
+                <input id="submit" type="submit" class="button" title="Log In" name="register" value="Login"></input>
+            </div>
+        </form>
+        <div class="reminder">
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>
